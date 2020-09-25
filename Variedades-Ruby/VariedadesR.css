@@ -8,15 +8,64 @@ h1{
     font-size: 50px;
     text-align: center;
     line-height: 100px;
-    color: whitesmoke;
+    color: rgb(230, 72, 72);
     margin-top: -0.6%;
     font-weight: bold;
-    background-color: rgb(3, 81, 88);
+    background-color: rgb(189, 132, 124);
 }
 .Logo{
     padding-left: 67.2%; 
     margin-top: -3%; 
 }
+
+hr{
+    border: 0.1px solid black;
+    border-radius: 0%;
+    margin-top: -2.7%;
+}
+
+.Sidebar{
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background:rgb(189, 132, 124);
+    color:  rgb(230, 72, 72);
+    outline: 1px solid rgb(189, 132, 124);
+    margin-top: -0.5%;
+}
+
+.Sidebar h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: black;
+}
+
+.Sidebar li{
+    outline: 1px solid rgb(230, 72, 72);
+    transition: border 0.3s;
+}
+
+.Sidebar li:hover{
+    background: rgb(165, 165, 168);
+    border-left: 5px solid brown;
+}
+
+.Sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+
+.Sidebar a {
+    font-family: 'Great Vibes', cursive;
+    color:  black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+body{}
 
 body::-webkit-scrollbar{
     width: 10px;
