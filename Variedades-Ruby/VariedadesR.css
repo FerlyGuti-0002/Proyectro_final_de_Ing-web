@@ -32,6 +32,7 @@ hr{
     color:  rgb(230, 72, 72);
     outline: 1px solid rgb(189, 132, 124);
     margin-top: -0.5%;
+    padding-left: -17%;
 }
 
 .Sidebar h2{
@@ -39,6 +40,7 @@ hr{
     margin: 0;
     padding: 15px;
     background: black;
+    margin-left: -5%;
 }
 
 .Sidebar li{
@@ -68,11 +70,14 @@ hr{
 
 .Contenido{
     margin-top: -0.5%;
-    width: 81.6%;
-    height: 100%;
+    width: 81.5% ;
     position: absolute;
     background:  rgb(216, 215, 215);
     transition: all 0.3s;
+    background: url(../Logo/ruby.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .menu-bar{
@@ -83,10 +88,12 @@ hr{
 .Abrir{
     transform: translatex(250px);
 }
+
 body{
-   font-family: 'Lato-LightItalic', sans-serif;
-   background: rgb(216, 215, 215);
-   margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background: rgb(216, 215, 215);
+    margin: 0;
 }
 
 body::-webkit-scrollbar{
