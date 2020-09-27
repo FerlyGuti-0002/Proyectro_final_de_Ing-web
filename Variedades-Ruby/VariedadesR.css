@@ -1,40 +1,63 @@
+/*Propiedad para mandar a llamar el ripo de fuente*/
 @font-face{
     font-family: "Logo";
     src: url(../FuentesL/Lato-LightItalic.ttf);
 }
-
+/*Etiquetas de cabeceras y encabezados de la página web*/
 h1{
-    font-size: 40px;
+    margin-top: -1%;
     text-align: center;
-    line-height: 100px;
-    color: rgb(230, 72, 72);
-    margin-top: -0.6%;
+    line-height:114px;
     font-weight: bold;
-    background-color: rgb(189, 132, 124);
+    font-size: 40px;
+    color:  rgb(230, 72, 72);
+    background: black;
 }
+
+h3{
+    margin-top: -8%;
+    text-align: center;
+    line-height: 63px;
+    font-weight: bold;
+    font-size: 15px;
+    color:  rgb(230, 72, 72);
+    background: black;
+}
+
+h6{
+    margin-top: -2%;
+    text-align: center;
+    line-height:114px;
+    font-weight: bold;
+    font-size: 40px;
+    color:  rgb(230, 72, 72);
+    background: black;
+}
+
+/*Etiqueta del logo de la tienda*/
 .Logo{
     padding-left: 67.2%; 
-    margin-top: -3%; 
+    margin-top: -2; 
 }
-
+/*Etiqueta hr para trazar raya y separar contenidos*/
 hr{
     border: 0.1px solid black;
     border-radius: 0%;
-    margin-top: -2.1%;
+    margin-top: -2.0%;
 }
-
+/*Clase para la creación del Sidebar, tamaños y estilos*/
 .Sidebar{
     font-size: 13px;
     position: absolute;
     width: 250px;
     height: 100%;
-    background:rgb(189, 132, 124);
+    background: black;
     color:  rgb(230, 72, 72);
-    outline: 1px solid rgb(189, 132, 124);
+    outline: 1px solid rgb(230, 72, 72);
     margin-top: -0.5%;
     padding-left: -17%;
 }
-
+/*Se usa la misma clase Sidebar para ponerle estilos a la cabecera Menú Tienda*/
 .Sidebar h2{
     text-align: center;
     margin: 0;
@@ -42,35 +65,39 @@ hr{
     background: black;
     margin-left: -5%;
 }
-
+/*Se usa la misma clase para ponerle estilos a cada contenido que contienen los li*/
 .Sidebar li{
     outline: 1px solid rgb(230, 72, 72);
     transition: border 0.3s;
 }
-
+/*Se usa la misma clase para ponerle estilos a cada boton que contienen los li*/
 .Sidebar li:hover{
-    background: rgb(165, 165, 168);
+    background: rgb(216, 215, 215);
     border-left: 5px solid ;
 }
-
+/*Se usa la misma clase para ponerle estilos y ajustes al menú del contenido de los ul*/
 .Sidebar ul{
     list-style: none;
     padding: 0;
     margin: 0;    
 }
-
+/*Se usa la misma clase para ponerle estilos a cada una de las opciones que contien a*/
 .Sidebar a {
     font-size: 14px;
     font-weight: bold;
-    color:  black;
+    color:  rgb(230, 72, 72);
     text-decoration: none;
     display: block;
     padding: 15px;
 }
-
+/*Se usa la clase Contenido para ponerle estilos al Sidebar, como al funcionamiento del icono, imagenes y color de fondo*/
 .Contenido{
     margin-top: -0.5%;
-    width: 81.5% ;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
     position: absolute;
     background:  rgb(216, 215, 215);
     transition: all 0.3s;
@@ -79,31 +106,44 @@ hr{
     background-size: cover;
     height: 100vh;
 }
-
+/*Se usa la clase menu-bar para ajustar el icono y puntero*/
 .menu-bar{
     margin-left: 0.2%;
     cursor: pointer;
 }
-
+/*Se usa la clase Abrir para darle funcionamiento al dezplazamiento del icono*/
 .Abrir{
     transform: translatex(250px);
 }
-
+/*Se usa como clase el elemento body para cambiar fuente y estilos a todo el contenido*/
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Playfair Display', serif;
     background: rgb(216, 215, 215);
     margin: 0;
+    overflow-x: hidden;
 }
-
+/*Se usa elemento body::-webkit-scrollbar como clase para darle estilos al scroll*/
 body::-webkit-scrollbar{
     width: 10px;
-        
+          
 }
-
+/*Se usa elemento body::-webkit-scrollbar-thumb como clase para que podamos darle color al scroll*/
 body::-webkit-scrollbar-thumb{
     background: rgb(230, 72, 72);
-}
-
+  }
+/*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
+  footer{
+    position: fixed;
+    width: 100%;
+    padding: 3px;
+    clear: both;
+    background: black ;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40%;
+    padding-left: -24%;
+    color:rgb(230, 72, 72);
+  }
 
 
