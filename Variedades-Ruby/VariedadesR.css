@@ -33,6 +33,14 @@ h6{
     color:  rgb(230, 72, 72);
     background: black;
 }
+h8{
+margin-top: -2%;
+text-align: center;
+line-height: 114%;
+font-weight: bold;
+font-size: 17px;
+
+}
 
 /*Etiqueta del logo de la tienda*/
 .Logo{
@@ -99,9 +107,9 @@ hr{
     object-fit: cover;
     object-position: center center;
     position: absolute;
-    background:  rgb(216, 215, 215);
+    background:  white;
     transition: all 0.3s;
-    background: url(../Logo/ruby.png) no-repeat;
+    /*background: url(../Logo/ruby.png) no-repeat;*/
     background-position: center;
     background-size: cover;
     height: 100vh;
