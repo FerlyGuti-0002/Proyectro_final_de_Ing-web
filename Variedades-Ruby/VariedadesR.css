@@ -59,7 +59,7 @@ hr{
     font-size: 13px;
     position: absolute;
     width: 250px;
-    height: 100%;
+    height: 2200px;
     background: black;
     color:  rgb(230, 72, 72);
     outline: 1px solid rgb(230, 72, 72);
@@ -98,6 +98,7 @@ hr{
     text-decoration: none;
     display: block;
     padding: 15px;
+    
 }
 /*Se usa la clase Contenido para ponerle estilos al Sidebar, como al funcionamiento del icono, imagenes y color de fondo*/
 .Contenido{
@@ -110,10 +111,10 @@ hr{
     position: absolute;
     background:   rgb(175, 128, 128);
     transition: all 0.3s;
-    /*background: url(../Logo/ruby.png) no-repeat;*/
     background-position: center;
     background-size: cover;
     height: 100vh;
+    height: 2200px;
 }
 /*Se usa la clase menu-bar para ajustar el icono y puntero*/
 .menu-bar{
@@ -150,7 +151,7 @@ body::-webkit-scrollbar-thumb{
     margin-top: -35.9%;
     border: 1px solid rgb(175, 128, 128);
     border-radius: 10%;
-    margin-left: 4.5%;    
+    margin-left: 4.5%;   
 }
 
 .slidera ul {
@@ -272,9 +273,15 @@ body::-webkit-scrollbar-thumb{
   100%{margin-left: -900%;}
 
 }
+.SoloRopa{
+    margin-top: -1.6%;
+    padding-left: 6.9%;  
+}
 
-
-
+.SoloCalzado{
+    margin-top: -1.6%;
+    padding-left: 6.9%;  
+}
 /*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
   footer{
     position: fixed;
