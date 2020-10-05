@@ -274,25 +274,28 @@ body::-webkit-scrollbar-thumb{
 
 }
 .SoloRopa{
-    margin-top: -1.6%;
+    margin-top: -0.5%;
     padding-left: 6.9%;  
 }
 
 .SoloCalzado{
-    margin-top: -1.6%;
+    margin-top: -0.5%;
     padding-left: 6.9%;  
+}
+.SoloBolsoMochila{
+    margin-top: -0.5%;
+    padding-left: 6.9%;
 }
 /*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
   footer{
     position: fixed;
     width: 100%;
     padding: 3px;
-    clear: both;
     background: black ;
     text-align: center;
     font-size: 12px;
-    margin-top: 40%;
-    padding-left: -24%;
+    margin-top: 111.2%;
+    padding-left: -16%;
     color:rgb(230, 72, 72);
   }
 
