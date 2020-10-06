@@ -273,6 +273,71 @@ body::-webkit-scrollbar-thumb{
   100%{margin-left: -900%;}
 
 }
+
+.sliderb {
+    width: 35%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -1%;
+    border-radius: 10%;
+    border: 1px solid rgb(175, 128, 128);
+    margin-left: 4.5%;
+}
+
+.sliderb ul {
+    display: flex;
+    padding: 0;
+    width: 1000%;
+    animation: cambio 20s infinite ease-in;
+    animation-direction: alternate;
+}
+
+.sliderb ul:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.sliderb li {
+    list-style: none;
+    width: 300%;
+}
+
+.sliderb img {
+    width: 100%;
+}
+
+@keyframes cambio {
+  5%{margin-left: 0;}
+  10%{margin-left: 0;}
+
+  15%{margin-left: -100%;}
+  20%{margin-left: -100%;}
+
+  25%{margin-left: -200%;}
+  30%{margin-left: -200%;}
+
+  35%{margin-left: -300%;}
+  40%{margin-left: -300%;}
+
+  45%{margin-left: -400%;}
+  50%{margin-left: -400%;}
+
+  55%{margin-left: -500%;}
+  60%{margin-left: -500%;}
+
+  65%{margin-left: -600%;}
+  70%{margin-left: -600%;}
+
+  75%{margin-left: -700%;}
+  80%{margin-left: -700%;}
+
+  85%{margin-left: -800%;}
+  90%{margin-left: -800%;}
+
+  95%{margin-left: -900%;}
+  100%{margin-left: -900%;}
+
+}
 .SoloRopa{
     margin-top: -0.5%;
     padding-left: 6.9%;  
