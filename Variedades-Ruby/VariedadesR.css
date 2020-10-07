@@ -59,7 +59,7 @@ hr{
     font-size: 13px;
     position: absolute;
     width: 250px;
-    height: 2200px;
+    height: 2250px;
     background: black;
     color:  rgb(230, 72, 72);
     outline: 1px solid rgb(230, 72, 72);
@@ -114,7 +114,7 @@ hr{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    height: 2200px;
+    height: 2250px;
 }
 /*Se usa la clase menu-bar para ajustar el icono y puntero*/
 .menu-bar{
@@ -339,18 +339,32 @@ body::-webkit-scrollbar-thumb{
 
 }
 .SoloRopa{
-    margin-top: -0.5%;
-    padding-left: 6.9%;  
+    margin-top: -1.2%;
+    padding-left: 5.5%;  
+}
+
+.SoloRopa img {
+    margin: 5px;
 }
 
 .SoloCalzado{
-    margin-top: -0.5%;
-    padding-left: 6.9%;  
+    margin-top: -1.2%;
+    padding-left: 5.5%;  
 }
+
+.SoloCalzado img {
+    margin: 5px;
+}
+
 .SoloBolsoMochila{
-    margin-top: -0.5%;
-    padding-left: 6.9%;
+    margin-top: -1.2%;
+    padding-left: 5.5%; 
 }
+
+.SoloBolsoMochila img {
+    margin: 5px;
+}
+
 /*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
   footer{
     position: fixed;
