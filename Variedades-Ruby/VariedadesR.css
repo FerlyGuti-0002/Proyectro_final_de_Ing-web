@@ -340,16 +340,19 @@ body::-webkit-scrollbar-thumb{
 }
 .SoloRopa{
     margin-top: -1.2%;
-    padding-left: 5.5%;  
+    padding-left: 5.4%; 
+   
 }
 
 .SoloRopa img {
     margin: 5px;
 }
 
+
+
 .SoloCalzado{
     margin-top: -1.2%;
-    padding-left: 5.5%;  
+    padding-left: 5.4%;  
 }
 
 .SoloCalzado img {
@@ -358,7 +361,7 @@ body::-webkit-scrollbar-thumb{
 
 .SoloBolsoMochila{
     margin-top: -1.2%;
-    padding-left: 5.5%; 
+    padding-left: 5.4%; 
 }
 
 .SoloBolsoMochila img {
