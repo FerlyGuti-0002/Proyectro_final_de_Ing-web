@@ -1532,6 +1532,54 @@ hr{
 .ContenedorF6-item:hover .ContenedorF6-img{
     transform: scale(1.15);
 }
+
+/*ContenedorF7*/
+
+.ContenedorF7{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.ContenedorF7-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorF7-item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ContenedorF7-img{
+    transition: all 0.6s;
+}
+
+.ContenedorF8-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 11.3px;
+    background: rgba(0, 0, 0, 0.5);
+    color:  rgb(230, 72, 72);
+
+    transform: translateY(100%);
+    transition: all 0.6s ease-out;
+}
+
+.ContenedorF8-text p{
+    text-align: justify;
+}
+
+.ContenedorF8-item:hover .ContenedorF8-text{
+    transform: translateY(0%);
+}
+
+.ContenedorF8-item:hover .ContenedorF8-img{
+    transform: scale(1.15);
+}
 /*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
   footer{
     position: fixed;
