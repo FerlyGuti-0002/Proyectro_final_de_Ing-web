@@ -44,7 +44,7 @@ padding-left: 10%;
 }
 /*Etiqueta hr para trazar raya y separar contenidos*/
 hr{
-    border: 0.1px solid black;
+    border: 0.1px solid rgb(230, 72, 72);
     border-radius: 0%;
     margin-top: -2.0%;
 }
@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb{
     width: 35%;
     margin: auto;
     overflow: hidden;
-    margin-top: -42.5%;
+    margin-top: -38.4%;
     border: 1px solid rgb(175, 128, 128);
     border-radius: 10%;
     margin-left: 7.5%;   
@@ -210,7 +210,7 @@ body::-webkit-scrollbar-thumb{
     width: 35%;
     margin: auto;
     overflow: hidden;
-    margin-top: -3%;
+    margin-top: -1%;
     border-radius: 10%;
     border: 1px solid rgb(175, 128, 128);
     margin-left: 46.9%;
@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb{
     width: 35%;
     margin: auto;
     overflow: hidden;
-    margin-top: -42.6%;
+    margin-top: -38.5%;
     border-radius: 10%;
     border: 1px solid rgb(175, 128, 128);
     margin-left: 46.9%;
@@ -813,6 +813,197 @@ hr{
     transform: scale(1.15);
 }
 
+/*ContenedorC*/
+
+.ContenedorC{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.ContenedorC-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorC-item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ContenedorC-img{
+    transition: all 0.6s;
+}
+
+.ContenedorC-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 11.3px;
+    background: rgba(0, 0, 0, 0.5);
+    color:  rgb(230, 72, 72);
+
+    transform: translateY(100%);
+    transition: all 0.6s ease-out;
+}
+
+.ContenedorC-text p{
+    text-align: justify;
+}
+
+.ContenedorC-item:hover .ContenedorC-text{
+    transform: translateY(0%);
+}
+
+.ContenedorC-item:hover .ContenedorC-img{
+    transform: scale(1.15);
+}
+
+/*ContenedorC1*/
+
+.ContenedorC1{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.ContenedorC1-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorC1-item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ContenedorC1-img{
+    transition: all 0.6s;
+}
+
+.ContenedorC1-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 11.3px;
+    background: rgba(0, 0, 0, 0.5);
+    color:  rgb(230, 72, 72);
+
+    transform: translateY(100%);
+    transition: all 0.6s ease-out;
+}
+
+.ContenedorC1-text p{
+    text-align: justify;
+}
+
+.ContenedorC1-item:hover .ContenedorC1-text{
+    transform: translateY(0%);
+}
+
+.ContenedorC1-item:hover .ContenedorC1-img{
+    transform: scale(1.15);
+}
+
+/*ContenedorC2*/
+
+.ContenedorC2{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.ContenedorC2-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorC2-item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ContenedorC2-img{
+    transition: all 0.6s;
+}
+
+.ContenedorC2-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 11.3px;
+    background: rgba(0, 0, 0, 0.5);
+    color:  rgb(230, 72, 72);
+
+    transform: translateY(100%);
+    transition: all 0.6s ease-out;
+}
+
+.ContenedorC2-text p{
+    text-align: justify;
+}
+
+.ContenedorC2-item:hover .ContenedorC2-text{
+    transform: translateY(0%);
+}
+
+.ContenedorC2-item:hover .ContenedorC2-img{
+    transform: scale(1.15);
+}
+
+/*ContenedorC3*/
+
+.ContenedorC3{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.ContenedorC3-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorC3-item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ContenedorC3-img{
+    transition: all 0.6s;
+}
+
+.ContenedorC3-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 11.3px;
+    background: rgba(0, 0, 0, 0.5);
+    color:  rgb(230, 72, 72);
+
+    transform: translateY(100%);
+    transition: all 0.6s ease-out;
+}
+
+.ContenedorC3-text p{
+    text-align: justify;
+}
+
+.ContenedorC3-item:hover .ContenedorC3-text{
+    transform: translateY(0%);
+}
+
+.ContenedorC3-item:hover .ContenedorC3-img{
+    transform: scale(1.15);
+}
 /*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
   footer{
     position: fixed;
