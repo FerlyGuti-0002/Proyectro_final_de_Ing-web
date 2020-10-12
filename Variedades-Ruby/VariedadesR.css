@@ -130,8 +130,7 @@ body{
     background: black;
     margin: 0;
     overflow-x: hidden;
-    width: 90%;
-  
+    width: 90%;  
 }
 /*Se usa elemento body::-webkit-scrollbar como clase para darle estilos al scroll*/
 body::-webkit-scrollbar{
@@ -148,7 +147,7 @@ body::-webkit-scrollbar-thumb{
     width: 35%;
     margin: auto;
     overflow: hidden;
-    margin-top: -36%;
+    margin-top: -36.3%;
     border: 1px solid rgb(175, 128, 128);
     border-radius: 10%;
     margin-left: 9%;   
@@ -278,7 +277,7 @@ body::-webkit-scrollbar-thumb{
     width: 35%;
     margin: auto;
     overflow: hidden;
-    margin-top: 1%;
+    margin-top: 2%;
     border-radius: 10%;
     border: 1px solid rgb(175, 128, 128);
     margin-left: 9%;
@@ -343,7 +342,7 @@ body::-webkit-scrollbar-thumb{
     width: 35%;
     margin: auto;
     overflow: hidden;
-    margin-top: -36%;
+    margin-top: -36.3%;
     border-radius: 10%;
     border: 1px solid rgb(175, 128, 128);
     margin-left: 58%;
