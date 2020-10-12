@@ -15,7 +15,7 @@ h1{
 }
 
 h6{
-    margin-top: -3%;
+    margin-top: -2%;
     text-align: center;
     line-height:114px;
     font-weight: bold;
@@ -33,7 +33,7 @@ line-height: 114%;
 font-weight: bold;
 font-size: 14px;
 color: rgb(230, 72, 72);
-padding-left: 10%;
+padding-left: 9%;
 
 }
 
@@ -53,7 +53,7 @@ hr{
     font-size: 13px;
     position: absolute;
     width: 250px;
-    height: 3300px;
+    height: 3200px;
     background: black;
     color:  rgb(230, 72, 72);
     outline: 1px solid rgb(230, 72, 72);
@@ -107,7 +107,7 @@ hr{
     transition: all 0.3s;
     background-position: center;
     background-size: cover;
-    height: 3300px;
+    height: 3200px;
     padding: 0;
 }
 /*Se usa la clase menu-bar para ajustar el icono y puntero*/
@@ -1677,6 +1677,19 @@ hr{
 .ContenedorF8-item:hover .ContenedorF8-img{
     transform: scale(1.15);
 }
+
+.Mapps p{
+    padding-left: 43.3%;
+    color:  rgb(230, 72, 72);
+    font-size: 25px;
+    margin-top: -2%;
+}
+
+.Mapps iframe{
+    padding-left: 8%;
+    margin-top: 2%;
+}
+
 /*Se usa la clase footer para crear un pie de página y después con propiedades para dar estilos*/
   footer{
     position: fixed;
